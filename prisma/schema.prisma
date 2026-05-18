@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String   @id @default(cuid())
+  clerkId       String   @unique
+  email         String   @unique
+  name          String?
+  githubUrl     String?
+  createdAt     DateTime @default(now())
+  skillProfile  SkillProfile?
+  resumeUploads ResumeUpload[]
+}
+
+model SkillProfile {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  user            User     @relation(fields: [userId], references: [id])
+  skills          Json     // { skillName: string, level: int, lastSeen: Date }[]
+  embedding       Float[]  // pgvector: Sentence-BERT embedding (768-dim)
+  sdsScore        Float    @default(0)  // Skill Demand Score 0-100
+  lastUpdated     DateTime @updatedAt
+}
+
+model MarketDemand {
+  id          String   @id @default(cuid())
+  skillName   String   @unique
+  demandScore Float    // Aggregated from job API data
+  jobCount    Int
+  trendDelta  Float    // Week-over-week change
+  updatedAt   DateTime @updatedAt
+  embedding   Float[]  // pgvector: demand vector
+}
+
+model ResumeUpload {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+  fileUrl    String   // R2/Supabase storage URL
+  parsedText String?  // Extracted text
+  processed  Boolean  @default(false)
+  createdAt  DateTime @default(now())
+}
+
+model LearningPath {
+  id            String   @id @default(cuid())
+  userId        String
+  skillGaps     Json     // Array of gap skills
+  roadmap       Json     // 30/60/90 day plan from GPT
+  generatedAt   DateTime @default(now())
+}

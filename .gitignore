@@ -1,0 +1,61 @@
+# ============================================================
+# NEURALPATH — Root .gitignore
+# ============================================================
+
+# ----- Environment / Secrets (NEVER commit these) -----------
+.env
+.env.*
+!.env.example        # Allow example files through
+!.env.*.example
+
+# ----- Node.js ---------------------------------------------- 
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+
+# ----- Frontend build ---------------------------------------
+frontend/dist/
+frontend/dist-ssr/
+
+# ----- Python / AI Service ----------------------------------
+ai-service/venv/
+ai-service/__pycache__/
+ai-service/**/__pycache__/
+ai-service/**/*.pyc
+ai-service/**/*.pyo
+ai-service/.pytest_cache/
+*.pyc
+*.pyo
+__pycache__/
+
+# ----- Prisma generated -------------------------------------
+backend/generated/
+backend/src/generated/
+**/generated/prisma/
+
+# ----- Logs -------------------------------------------------
+logs/
+*.log
+
+# ----- OS files ---------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- Editor -----------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ----- Temp / scratch files ---------------------------------
+*.tmp
+*.temp

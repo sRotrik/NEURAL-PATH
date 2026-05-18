@@ -1,0 +1,119 @@
+{
+  "user_3CMm1yMliNtBQilqcC0lNwK222C": {
+    "source": "resume",
+    "education": [
+      "B.E. Mechanical"
+    ],
+    "languages_known": [
+      "English"
+    ],
+    "certifications": [],
+    "programming_languages_known": [],
+    "tools_known": [
+      "CATIA V5",
+      "UGNX",
+      "AutoCAD",
+      "SolidWorks"
+    ],
+    "soft_skills": [
+      "Agile"
+    ],
+    "experience": [
+      "Design Engineer, 3D Geometry, August 2017 - Dec 2019, Designed automotive plastic and sheet metal components using CATIA V5 and UGNX.",
+      "Software Trainer/Lecturer, BMP (Institute), July 2014 - June 2017, Trained students on AutoCAD, SolidWorks, and CATIA V5R21."
+    ],
+    "achievements": [
+      "Designed and developed complete lower door trim using CATIA V5",
+      "Developed switch bezel, insert, and map pocket for door trim",
+      "Created mounting brackets for seating system using CATIA V5"
+    ],
+    "top_role": "Design Engineer",
+    "ats_score": 56,
+    "ats_breakdown": [
+      "Strong technical skills in CATIA V5, UGNX, and AutoCAD, with relevant experience in automotive design.",
+      "Lacks direct programming language skills, but has experience with CAD software.",
+      "📉 Low market signal: CATIA V5 (0%), UGNX (0%) appeared rarely in current live job listings — consider adding trending tools."
+    ],
+    "llm_quality_score": 82,
+    "market_score": 18,
+    "demand_data": {
+      "catia v5": 0,
+      "ugnx": 0,
+      "autocad": 30,
+      "solidworks": 40
+    },
+    "jobs_analyzed": 10
+  },
+  "user_3CwjMowPOlMLYvaoMcms3lrdYSy": {
+    "source": "resume",
+    "education": [
+      "B.E. Computer Science and Engineering — Anna University, Chennai",
+      "Higher Secondary (Class XII) — Sri Ramakrishna Matric Hr. Sec. School, Chennai",
+      "Secondary (Class X) — Sri Ramakrishna Matric Hr. Sec. School, Chennai"
+    ],
+    "languages_known": [
+      "Tamil",
+      "English",
+      "Hindi"
+    ],
+    "certifications": [
+      "Python for Everybody — Coursera / University of Michigan",
+      "C++ Basics — NPTEL Online Course, IIT Kharagpur",
+      "Introduction to SQL — HackerRank"
+    ],
+    "programming_languages_known": [
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "HTML/CSS",
+      "SQL"
+    ],
+    "tools_known": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Eclipse",
+      "MySQL",
+      "Linux"
+    ],
+    "soft_skills": [
+      "Agile"
+    ],
+    "experience": [
+      "Student Result Management System — Academic Project, Jan 2024 – Mar 2024, Built a console-based application in Python",
+      "Library Management System — Mini Project, Aug 2023 – Oct 2023, Developed in C++ using OOP principles",
+      "Personal Portfolio Website — Self-initiated, Dec 2023, Designed a simple static portfolio using HTML and CSS",
+      "Web Development Intern (Virtual) — CodeTech Solutions (Remote), May 2024 – Jun 2024, Completed a 4-week virtual internship focused on front-end development basics"
+    ],
+    "achievements": [
+      "Ranked 18th out of 120 participants in college-level coding contest",
+      "Volunteered in department technical symposium 'TechFest 2023' as event coordinator"
+    ],
+    "top_role": "Software Engineer",
+    "ats_score": 53,
+    "ats_breakdown": [
+      "Good use of action verbs across project descriptions, such as 'Built' and 'Developed'.",
+      "Lacks quantifiable metrics in work experience, such as 'increased efficiency by 25%'.",
+      "🔥 High market demand: C (100%), Java (70%), Git (70%) are required in 10 live job postings analyzed.",
+      "📉 Low market signal: GitHub (20%), C++ (10%) appeared rarely in current live job listings — consider adding trending tools."
+    ],
+    "llm_quality_score": 68,
+    "market_score": 30,
+    "demand_data": {
+      "c": 100,
+      "c++": 10,
+      "python": 40,
+      "java": 70,
+      "html/css": 0,
+      "sql": 50,
+      "git": 70,
+      "github": 20,
+      "vs code": 0,
+      "eclipse": 0,
+      "mysql": 0,
+      "linux": 0
+    },
+    "jobs_analyzed": 10
+  }
+}
