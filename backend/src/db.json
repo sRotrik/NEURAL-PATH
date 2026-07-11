@@ -1,48 +1,44 @@
 {
   "user_3CMm1yMliNtBQilqcC0lNwK222C": {
-    "source": "resume",
+    "ats_score": 80,
     "education": [
-      "B.E. Mechanical"
+      "Degree detected from resume"
     ],
     "languages_known": [
       "English"
     ],
-    "certifications": [],
-    "programming_languages_known": [],
+    "certifications": [
+      "AWS Certified"
+    ],
+    "programming_languages_known": [
+      "Python",
+      "Javascript",
+      "Java",
+      "C++",
+      "Sql"
+    ],
     "tools_known": [
-      "CATIA V5",
-      "UGNX",
-      "AutoCAD",
-      "SolidWorks"
+      "React",
+      "Aws",
+      "Git",
+      "Html",
+      "Css"
     ],
     "soft_skills": [
-      "Agile"
+      "Communication",
+      "Teamwork",
+      "Critical Thinking"
     ],
     "experience": [
-      "Design Engineer, 3D Geometry, August 2017 - Dec 2019, Designed automotive plastic and sheet metal components using CATIA V5 and UGNX.",
-      "Software Trainer/Lecturer, BMP (Institute), July 2014 - June 2017, Trained students on AutoCAD, SolidWorks, and CATIA V5R21."
+      "Work / internship experience detected in resume."
     ],
-    "achievements": [
-      "Designed and developed complete lower door trim using CATIA V5",
-      "Developed switch bezel, insert, and map pocket for door trim",
-      "Created mounting brackets for seating system using CATIA V5"
-    ],
-    "top_role": "Design Engineer",
-    "ats_score": 56,
+    "achievements": [],
     "ats_breakdown": [
-      "Strong technical skills in CATIA V5, UGNX, and AutoCAD, with relevant experience in automotive design.",
-      "Lacks direct programming language skills, but has experience with CAD software.",
-      "📉 Low market signal: CATIA V5 (0%), UGNX (0%) appeared rarely in current live job listings — consider adding trending tools."
+      "System could not cleanly extract deep semantics.",
+      "Keyword density indicates a partial match with modern stacks.",
+      "Action verbs and quantifiable metrics could not be parsed."
     ],
-    "llm_quality_score": 82,
-    "market_score": 18,
-    "demand_data": {
-      "catia v5": 0,
-      "ugnx": 0,
-      "autocad": 30,
-      "solidworks": 40
-    },
-    "jobs_analyzed": 10
+    "_parsed_by": "fallback"
   },
   "user_3CwjMowPOlMLYvaoMcms3lrdYSy": {
     "source": "resume",
